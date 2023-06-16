@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+body {
+    font-family: "Roboto Slab";
+}
+
+.article {
+    width: 50%;
+    margin: auto;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.img {
+    width: 34%;
+    float: right;
+    margin-left: 15px;
+}
+.heading {
+    color: #289599;
+}
+.sub-heading {
+    color: #999999; /*#999999 = #999 as there are set of 2 numbers and if both numbers are same then we can write it as a single number*/
+}
+.paragraph {
+    color: #88de;
+}
+/* (*) it means we applying settings or styles for all tags.
+
+* {
+    border: 1px solid blue
+}*/

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+* {
+    font-family: "Roboto Slab", sans-serif;
+    box-sizing: border-box;
+}
+
+/*div{
+    border: 1px solid blue
+}*/
+body {
+    margin: 0px;
+}
+.header {
+    background-color: #4d0850;
+    border-bottom: 0.5rem solid #91d18b;
+}
+
+.logo {
+    color: #fbecec;
+    padding: 1.5rem;
+    margin: 0px;
+}
+
+.footer {
+    /*background-color: RGBA(50, 255, 255, 35%);*/
+    clear: both;
+    background-color: #4d0850;
+    color: #fbecec;
+    padding: 1rem;
+}
+
+.category-column {
+    width: 25%;
+    float: left;
+    padding: 1.2rem;
+    /*background-color: RGBA(255, 50, 50, 35%);*/
+}
+
+.headlines-column {
+    width: 50%;
+    float: left;
+    padding: 1.2rem;
+    /*background-color: RGBA(50, 255, 50, 35%);*/
+}
+
+.weather-column {
+    width: 25%;
+    float: left;
+    padding: 1.2rem;
+    /*background-color: RGBA(50, 50, 255, 40%);*/
+}
+.weather-degree {
+    font-size: 6rem;
+    color: #91d188;
+    text-align: center;
+}
+
+
+.heading {
+    color: #e11d74;
+     margin: 1.2 rem;
+    margin-left: 1rem;
+}
+
+.content {
+    border: 0.1rem solid #91d18b;
+    border-radius: 0.4rem;
+    padding: 1.2rem;
+    
+    /*padding-left: 1.2rem;*/
+    /*padding-right: 1.2rem;*/
+}
+
+.news-title,
+.category-item {
+    /*padding-top: 0.6rem;*/
+    /*padding-bottom: 0.6rem;*/
+    color: #ae23b5;
+    margin: 0.8rem;
+}
+
+.news-title:hover {
+    color: #e11d74;
+    cursor:pointer;
+    text-decoration: underline;
+}

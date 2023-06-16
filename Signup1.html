@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Signup</title>
+    </head>
+    <body>
+        <h1>Signup</h1>
+        <form method="post" action="http://jkorpela.fi/cgi-bin/echo.cgi">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" value="Arpit" name="name" id="name" placeholder="Arpit">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" value="arpit@xyz.com" id="email" placeholder="Enter Email">
+            </p>
+            <p>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" placeholder="Enter Password" name="password">
+            </p>
+            <p>
+                <label for="color">Favorite Color:</label>
+                <select id="color" name="color">
+                    <option value="G" selected>Green</option>
+                    <option value="R">Red</option>
+                    <option value="B">Blue</option>
+                </select>
+            </p>
+            <p>
+                Gender:
+                <input type="radio" name="gender" id="male" value="M" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="F">
+                <label for="female">Female</label>
+            </p>
+            <p>
+                <label for="student">I am a Student</label>
+                <input type="checkbox" id="student" value="Y" checked>
+            </p>
+            <p>
+                <label for="about">About me:</label>
+                <textarea name="about" id="about">I want to become an Pro-Coder</textarea>
+            </p>
+            <input type="submit" value="Signup">
+        </form>
+    </body>
+</html>

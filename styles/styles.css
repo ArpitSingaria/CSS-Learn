@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+h1 {
+    color: seagreen;
+    text-align: center;
+}
+
+#heading {
+    color: blue;
+}
+
+.heading {
+    color: red;
+}
+
+/*@font-face{
+    font-family:"Roboto Slab";
+    src:url("font/RobotoSlab-VariableFont_wght.ttf")
+}*/
+
+.box {
+    font-family: Roboto Slab, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: darkgreen;
+    background-color: aquamarine;
+    border-color: #87a512;
+    border-style: double;
+    border-width: 8px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px 10px 20px 5px;
+    margin: auto;
+    margin-top: 50px;
+    /*margin: 46px 51px  50px 79px;*/
+    text-align: center;
+}
+body {
+    background-color: #1bfec1;
+}
+
